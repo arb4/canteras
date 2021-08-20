@@ -1,13 +1,13 @@
 
 var mapbox = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 13.4,
+	maxZoom: 19,
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 
 var map = new L.Map('map', {
     layers: [mapbox],
     center: [-29.972444, -71.309506],
-    zoom: 18,
+    zoom: 19,
     zoomControl: true
 });
 
